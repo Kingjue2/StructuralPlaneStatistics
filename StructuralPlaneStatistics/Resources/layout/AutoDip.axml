@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget32"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/tv2"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="无法测量产状！"
+        android:layout_toRightOf="@+id/widget79"
+        android:layout_alignTop="@+id/widget80"
+        android:layout_alignLeft="@+id/tv0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="没有相关传感器！"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/widget79"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_dipok"
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/widget80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dip Angle： "
+        android:layout_alignBottom="@+id/btn_dipok"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/btn_dipok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textAllCaps="false" />
+    <TextView
+        android:id="@+id/widget79"
+        android:layout_width="wrap_content"
+        android:layout_height="24.0dp"
+        android:text="Dip Direction： "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+</RelativeLayout>

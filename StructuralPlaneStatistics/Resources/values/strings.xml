@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Structural Plane Survey Statistics</string>
+    <string name="action_settings">Settings</string>
+  <string-array name="arr_group">
+    <item>Group 1</item>
+    <item>Group 2</item>
+    <item>Group 3</item>
+    <item>Group 4</item>
+    <item>Group 5</item>
+    <item>Bedding Plane</item>
+  </string-array>
+  <string-array name="arr_waviness">
+    <item>Flat</item>
+    <item>Wavy</item>
+    <item>Stairs</item>
+  </string-array>
+  <string-array name="arr_rough">
+    <item>Mirror</item>
+    <item>Smooth</item>
+    <item>Rough</item>
+  </string-array>  
+  <string-array name="arr_opening">
+    <item>Closure</item>
+    <item>Slightly Open</item>
+    <item>Open</item>
+  </string-array>
+  <string-array name="arr_cementation">
+    <item></item>
+    <item>Well Cementation</item>
+    <item>Better Cementation</item>
+    <item>Medium Cementation</item>
+    <item>Poor Cementation</item>
+    <item>No Cementation</item>
+  </string-array>
+  <string-array name="arr_groundwater">
+    <item>Dry</item>
+    <item>Humid</item>
+    <item>Moist</item>
+    <item>Soaking</item>
+    <item>Dripping</item>
+    <item>Gushing</item>
+  </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="1.Take Photo"
+            android:layout_width="match_parent"
+            android:layout_height="38dip"
+            android:textAllCaps="false"
+            android:id="@+id/btn_img" />
+        <Button
+            android:text="2.Draw Window"
+            android:layout_width="match_parent"
+            android:layout_height="38dip"
+            android:textAllCaps="false"
+            android:id="@+id/btn_rect" />
+        <Button
+            android:text="3.Deformation"
+            android:layout_width="match_parent"
+            android:layout_height="38dip"
+            android:textAllCaps="false"
+            android:id="@+id/btn_reform" />
+        <Button
+            android:text="4.Trace Add"
+            android:layout_width="match_parent"
+            android:layout_height="38dip"
+            android:textAllCaps="false"
+            android:id="@+id/btn_line" />
+        <Button
+            android:text="Trace Modify"
+            android:layout_width="match_parent"
+            android:layout_height="38dip"
+            android:textAllCaps="false"
+            android:id="@+id/btn_modify" />
+        <Button
+            android:text="Undo"
+            android:layout_width="match_parent"
+            android:layout_height="38dip"
+            android:textAllCaps="false"
+            android:id="@+id/btn_cancel" />
+        <Button
+            android:text="5.Rose Diagram"
+            android:layout_width="match_parent"
+            android:layout_height="38dip"
+            android:textAllCaps="false"
+            android:id="@+id/btn_rose" />
+        <Button
+            android:text="6.Export"
+            android:layout_width="match_parent"
+            android:layout_height="38dip"
+            android:textAllCaps="false"
+            android:id="@+id/btn_statistic" />
+    </LinearLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/linearLayout1"
+        android:id="@+id/relativeLayout1">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1" />
+    </RelativeLayout>
+</RelativeLayout>
